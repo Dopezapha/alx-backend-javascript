@@ -1,5 +1,11 @@
-/* eslint-disable no-unused-vars */
-/* eslint-disable */
+/* eslint-disable no-unused-vars /
+/ eslint-disable */
 export default function appendToEachArrayValue(array, appendString) {
-  return array.map(value => appendString + value);
+  let i = 0;
+  for (let value of array) {
+    array[i] = appendString + value;
+    i++;
+  }
+
+  return array;
 }
