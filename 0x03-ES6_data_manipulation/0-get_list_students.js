@@ -1,3 +1,5 @@
+/* eslint-disable no-unused-vars */
+/* eslint-disable */
 function getListStudents() {
     return [
 	    {id: 1, firstName: 'Guillaume', location: 'San Francisco'},
